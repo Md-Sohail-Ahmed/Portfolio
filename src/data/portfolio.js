@@ -22,8 +22,8 @@ export const profile = {
     'Full-stack developer focused on building scalable MERN applications, REST APIs, AI-powered product features, and clean user experiences with strong DSA and problem-solving fundamentals.',
   email: 'mdsohailahmed25017@gmail.com',
   phone: '+91 9739325017',
-  linkedin: '#',
-  github: '#',
+  linkedin: 'https://www.linkedin.com/in/md-sohail-ahmed0333/',
+  github: 'https://github.com/Md-Sohail-Ahmed',
   resume: '/Md-Sohail_Ahmed_Resume.pdf',
   heroBadge: 'MERN Stack | DSA | Problem Solving | GenAI APIs',
 };
@@ -38,7 +38,7 @@ export const navItems = [
 ];
 
 export const stats = [
-  { value: '200+', label: 'DSA problems solved' },
+  { value: '200+', label: 'DSA problems solved (Leetcode)' },
   { value: '3+', label: 'Full-stack projects' },
   { value: '8.1', label: 'B.Tech CGPA' },
 ];
@@ -51,10 +51,10 @@ export const about = {
 };
 
 export const skills = [
-  { name: 'React', icon: Code2, group: 'Frontend' },
-  { name: 'JavaScript', icon: Sparkles, group: 'Language' },
+  { name: 'React', icon: Sparkles, group: 'Frontend' },
+  { name: 'JavaScript', icon: Code2, group: 'Language' },
   { name: 'TypeScript', icon: Code2, group: 'Language' },
-  { name: 'C++', icon: Code2, group: 'DSA' },
+  { name: 'C++', icon: Code2, group: 'Language' },
   { name: 'Tailwind CSS', icon: Layers3, group: 'Styling' },
   { name: 'Node.js', icon: Server, group: 'Backend' },
   { name: 'Express.js', icon: Server, group: 'Backend' },
@@ -75,7 +75,7 @@ export const projects = [
       'A full-stack AI interview preparation platform that analyzes candidate readiness, compares resumes with job roles, finds skill gaps, and generates personalized preparation plans.',
     tech: ['React', 'Node.js', 'Express.js', 'MongoDB', 'JWT', 'Gemini API'],
     live: '#',
-    repo: '#',
+    repo: 'https://github.com/Md-Sohail-Ahmed/Interview-Master',
   },
   {
     title: 'Delish',
@@ -139,8 +139,8 @@ export const achievements = [
 export const contactLinks = [
   { label: 'Email', href: `mailto:${profile.email}`, value: profile.email, icon: Mail },
   { label: 'Phone', href: `tel:${profile.phone.replace(/\s/g, '')}`, value: profile.phone, icon: Phone },
-  { label: 'LinkedIn', href: profile.linkedin, value: 'Add your LinkedIn URL', icon: Linkedin },
-  { label: 'GitHub', href: profile.github, value: 'Add your GitHub URL', icon: Github },
+  { label: 'LinkedIn', href: profile.linkedin, value: 'https://www.linkedin.com/in/md-sohail-ahmed0333/', icon: Linkedin },
+  { label: 'GitHub', href: profile.github, value: 'https://github.com/Md-Sohail-Ahmed', icon: Github },
 ];
 
 export const linkIcon = ExternalLink;
