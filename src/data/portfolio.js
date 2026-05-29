@@ -12,20 +12,21 @@ import {
   Rocket,
   Server,
   Sparkles,
+  panelRightClose,
 } from 'lucide-react';
 
 export const profile = {
   name: 'Md Sohail Ahmed',
-  title: 'MERN Stack Full-Stack Developer',
+  title: 'Full-Stack Developer, Turning Ideas into Production-Ready Applications.',
   location: 'Bengaluru, Karnataka, India',
   intro:
-    'Full-stack developer focused on building scalable MERN applications, REST APIs, AI-powered product features, and clean user experiences with strong DSA and problem-solving fundamentals.',
+    'Full-Stack Developer specializing in React.js, Node.js, Express.js, and MongoDB. I build responsive web applications, secure REST APIs, and AI-powered solutions focused on performance and user experience.',
   email: 'mdsohailahmed25017@gmail.com',
   phone: '+91 9739325017',
   linkedin: 'https://www.linkedin.com/in/md-sohail-ahmed0333/',
   github: 'https://github.com/Md-Sohail-Ahmed',
   resume: '/Md-Sohail_Ahmed_Resume.pdf',
-  heroBadge: 'MERN Stack | DSA | Problem Solving | GenAI APIs',
+  heroBadge: 'React.js | Node.js | MongoDB | GenAI',
 };
 
 export const navItems = [
@@ -39,30 +40,40 @@ export const navItems = [
 
 export const stats = [
   { value: '200+', label: 'DSA problems solved (Leetcode)' },
-  { value: '3+', label: 'Full-stack projects' },
+  { value: '5+', label: 'Full-stack projects' },
+  { value: 'Internship', label: 'Application Development Intern' },
   { value: '8.1', label: 'B.Tech CGPA' },
+  
 ];
 
 export const about = {
   eyebrow: 'About me',
-  heading: 'A full-stack developer who builds practical MERN products with clean architecture.',
+  heading: 'Turning ideas into production-ready web applications using MERN and GenAI.',
   body:
-    'I am a Computer Science Engineering student and full-stack developer experienced with JavaScript, React.js, Node.js, Express.js, and MongoDB. I enjoy building complete applications from responsive interfaces to secure REST APIs, with a strong focus on performance, database design, and problem-solving. My recent work includes AI-powered interview preparation, restaurant reservation workflows, and productivity tools.',
+    `Full-Stack Developer specializing in the MERN stack with hands-on experience building scalable web applications and REST APIs.
+Skilled in React.js, Node.js, Express.js, MongoDB, and modern JavaScript.
+Passionate about creating clean, user-focused products with strong performance and maintainable architecture.
+Recently built AI-powered applications, productivity tools, and business workflow solutions.`,
 };
 
 export const skills = [
   { name: 'React', icon: Sparkles, group: 'Frontend' },
-  { name: 'JavaScript', icon: Code2, group: 'Language' },
-  { name: 'TypeScript', icon: Code2, group: 'Language' },
-  { name: 'C++', icon: Code2, group: 'Language' },
-  { name: 'Tailwind CSS', icon: Layers3, group: 'Styling' },
+  { name: 'JavaScript', icon: Code2, group: 'Frontend' },
+  { name: 'TypeScript', icon: Code2, group: 'Frontend' },
+  { name: 'Tailwind CSS', icon: Layers3, group: 'Frontend' },
+  { name: 'CSS', icon: Layers3, group: 'Frontend' },
+  { name: 'HTML', icon: Layers3, group: 'Frontend' },
   { name: 'Node.js', icon: Server, group: 'Backend' },
   { name: 'Express.js', icon: Server, group: 'Backend' },
+  { name: 'REST APIs', icon: Rocket, group: 'Backend' },
+  { name: 'REST APIs', icon: Rocket, group: 'Backend' },
   { name: 'MongoDB', icon: Database, group: 'Database' },
   { name: 'MySQL', icon: Database, group: 'Database' },
-  { name: 'REST APIs', icon: Rocket, group: 'Integration' },
   { name: 'DSA', icon: BriefcaseBusiness, group: 'Problem Solving' },
+  { name: 'C++', icon: Code2, group: 'Language' },
+  { name: 'Kotlin', icon: Code2, group: 'Language' },
   { name: 'Git & GitHub', icon: Github, group: 'Tools' },
+  { name: 'Android Studio', icon: panelRightClose, group: 'Tools' },
   { name: 'Postman', icon: Rocket, group: 'Tools' },
 ];
 
