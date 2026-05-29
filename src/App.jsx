@@ -172,7 +172,7 @@ function About() {
 
 function Skills() {
   return (
-    <Section id="skills" eyebrow="Skills" title="Tools I use to build polished web products.">
+    <Section id="skills" eyebrow="Skills" title="Technologies I use to build scalable web applications.">
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         {skills.map(({ name, icon: Icon, group }) => (
           <motion.div
@@ -284,7 +284,7 @@ function Experience() {
 
 function Achievements() {
   return (
-    <Section id="achievements" eyebrow="Achievements" title="A problem-solving foundation behind the product work.">
+    <Section id="achievements" eyebrow="Achievements" title="Achievements that reflect continuous learning and technical growth.">
       <div className="grid gap-5 md:grid-cols-2">
         {achievements.map((item) => (
           <article key={item.title} className="rounded-2xl border border-white/10 bg-white/[0.035] p-6">
@@ -299,11 +299,11 @@ function Achievements() {
 
 function Contact() {
   return (
-    <Section id="contact" eyebrow="Contact" title="Let's connect for MERN stack and full-stack opportunities.">
+    <Section id="contact" eyebrow="Contact" title="Let's build something impactful together.">
       <div className="grid gap-8 rounded-2xl border border-white/10 bg-gradient-to-br from-white/[0.06] to-white/[0.025] p-6 sm:p-8 md:grid-cols-[0.9fr_1.1fr]">
         <div>
           <p className="leading-8 text-slate-300">
-            I am open to full-stack developer roles, MERN stack internships, and opportunities where I can build scalable web applications, REST APIs, and AI-integrated product features.
+            I am actively seeking Full-Stack Developer and Software Engineer opportunities where I can contribute to building scalable web applications, REST APIs, and AI-powered products.
           </p>
           <a
             href={profile.resume}
@@ -319,6 +319,7 @@ function Contact() {
             <a
               key={label}
               href={href}
+              target='_blank'
               className="flex items-center gap-4 rounded-xl border border-white/10 bg-slate-950/45 p-4 transition hover:border-cyan-300/30 hover:bg-slate-950/80"
             >
               <Icon className="text-cyan-200" size={21} aria-hidden="true" />
@@ -338,8 +339,8 @@ function Footer() {
   return (
     <footer className="border-t border-white/10 py-8">
       <div className="mx-auto flex max-w-6xl flex-col gap-3 px-5 text-sm text-slate-400 sm:flex-row sm:items-center sm:justify-between">
-        <p>Copyright {new Date().getFullYear()} {profile.name}. All rights reserved.</p>
-        <p>Built with React, Vite, Tailwind CSS, and Framer Motion.</p>
+        <p>{new Date().getFullYear()} - {profile.name}.</p>
+        <p>Crafting scalable web applications with MERN & AI.</p>
       </div>
     </footer>
   );

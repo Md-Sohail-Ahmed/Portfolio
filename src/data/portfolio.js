@@ -12,7 +12,9 @@ import {
   Rocket,
   Server,
   Sparkles,
-  panelRightClose,
+  PanelRightClose,
+  Link,
+  LockKeyhole,
 } from 'lucide-react';
 
 export const profile = {
@@ -59,31 +61,33 @@ Recently built AI-powered applications, productivity tools, and business workflo
 export const skills = [
   { name: 'React', icon: Sparkles, group: 'Frontend' },
   { name: 'JavaScript', icon: Code2, group: 'Frontend' },
-  { name: 'TypeScript', icon: Code2, group: 'Frontend' },
+  { name: 'TypeScript (Basics)', icon: Code2, group: 'Frontend' },
   { name: 'Tailwind CSS', icon: Layers3, group: 'Frontend' },
   { name: 'CSS', icon: Layers3, group: 'Frontend' },
   { name: 'HTML', icon: Layers3, group: 'Frontend' },
   { name: 'Node.js', icon: Server, group: 'Backend' },
   { name: 'Express.js', icon: Server, group: 'Backend' },
   { name: 'REST APIs', icon: Rocket, group: 'Backend' },
-  { name: 'REST APIs', icon: Rocket, group: 'Backend' },
+  { name: 'JWT Authentication', icon: LockKeyhole , group: 'Backend' },
   { name: 'MongoDB', icon: Database, group: 'Database' },
   { name: 'MySQL', icon: Database, group: 'Database' },
-  { name: 'DSA', icon: BriefcaseBusiness, group: 'Problem Solving' },
+  { name: 'Firebase', icon: Database, group: 'Database' },
+  { name: 'GenAI APIs', icon: Link , group: 'Integration' },
   { name: 'C++', icon: Code2, group: 'Language' },
   { name: 'Kotlin', icon: Code2, group: 'Language' },
   { name: 'Git & GitHub', icon: Github, group: 'Tools' },
-  { name: 'Android Studio', icon: panelRightClose, group: 'Tools' },
+  { name: 'Android Studio', icon: PanelRightClose , group: 'Tools' },
   { name: 'Postman', icon: Rocket, group: 'Tools' },
+  
 ];
 
 export const projects = [
   {
-    title: 'Interview Master',
+    title: 'AI Interview Preparation System Using MERN And Gemini',
     category: 'AI + MERN',
     badge: 'Featured AI Project',
     description:
-      'A full-stack AI interview preparation platform that analyzes candidate readiness, compares resumes with job roles, finds skill gaps, and generates personalized preparation plans.',
+      'Built a full-stack AI interview preparation platform with resume analysis, AI-generated learning plans, and role-based interview preparation workflows.',
     tech: ['React', 'Node.js', 'Express.js', 'MongoDB', 'JWT', 'Gemini API'],
     live: '#',
     repo: 'https://github.com/Md-Sohail-Ahmed/Interview-Master',
@@ -119,18 +123,18 @@ export const experience = [
     period: 'Feb 2026 - May 2026',
     icon: BriefcaseBusiness,
     points: [
-      'Developed scalable Android applications using Kotlin and Android Studio with modern UI and architecture practices.',
-      'Integrated Generative AI APIs to enable intelligent, context-aware in-app features.',
-      'Designed and consumed RESTful APIs for seamless data communication and optimized responsiveness.',
+      'Developed Android application features using Kotlin and Android Studio, focusing on responsive UI components and seamless user interactions.',
+      'Integrated Gemini AI APIs to implement intelligent content generation and context-aware application features.',
+      'Consumed REST APIs for data retrieval and synchronization, improving application responsiveness and user experience.',
     ],
   },
   {
-    role: 'B.Tech in Computer Science & Engineering',
+    role: 'Bachelor of Technology (B.Tech) – Computer Science & Engineering',
     company: 'City Engineering College, VTU',
     period: '2022 - 2026',
     icon: GraduationCap,
     points: [
-      'Current CGPA: 8.1/10.',
+      'CGPA: 8.1/10.',
       'Focused on DBMS, OOPS, Data Structures & Algorithms, and full-stack web development.',
     ],
   },
@@ -138,12 +142,12 @@ export const experience = [
 
 export const achievements = [
   {
-    title: 'Solved 200+ DSA Problems',
-    description: 'Practiced Data Structures & Algorithms on LeetCode with consistent problem-solving focus.',
+    title: '200+ LeetCode Problems Solved',
+    description: 'Strengthened problem-solving skills through consistent practice in Data Structures, Algorithms, and coding interview patterns.',
   },
   {
-    title: 'AICTE-Edunet MERN Certification',
-    description: 'Completed Building Modern Web Applications with MERN Stack certification program.',
+    title: 'AICTE Edunet MERN Stack Certification',
+    description: 'Completed industry-oriented training covering React.js, Node.js, Express.js, MongoDB, REST APIs, and full-stack application development.',
   },
 ];
 
