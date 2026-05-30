@@ -109,8 +109,8 @@ export const projects = [
     description:
       'A React-based code snippet and text management app with create, edit, and manage workflows, efficient state handling, and reusable Tailwind components.',
     tech: ['React.js', 'Redux Toolkit', 'Tailwind CSS'],
-    live: '#',
-    repo: '#',
+    live: 'https://paste-app-nine-rho.vercel.app/',
+    repo: 'https://github.com/Md-Sohail-Ahmed/Paste-App',
   },
 ];
 
