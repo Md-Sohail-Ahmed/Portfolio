@@ -99,8 +99,8 @@ export const projects = [
     description:
       'A restaurant web application with menu display, services overview, responsive UI, and dynamic table reservation management backed by REST APIs.',
     tech: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'REST APIs'],
-    live: '#',
-    repo: '#',
+    live: 'https://delish-green.vercel.app/',
+    repo: 'https://github.com/Md-Sohail-Ahmed/Delish',
   },
   {
     title: 'Paste App',
