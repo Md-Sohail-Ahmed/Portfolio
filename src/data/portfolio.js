@@ -89,7 +89,7 @@ export const projects = [
     description:
       'Built a full-stack AI interview preparation platform with resume analysis, AI-generated learning plans, and role-based interview preparation workflows.',
     tech: ['React', 'Node.js', 'Express.js', 'MongoDB', 'JWT', 'Gemini API'],
-    live: 'https://interview-master-tau.vercel.app/register',
+    live: 'https://interview-master-tau.vercel.app',
     repo: 'https://github.com/Md-Sohail-Ahmed/Interview-Master',
   },
   {
