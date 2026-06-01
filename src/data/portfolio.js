@@ -27,7 +27,7 @@ export const profile = {
   phone: '+91 9739325017',
   linkedin: 'https://www.linkedin.com/in/md-sohail-ahmed0333/',
   github: 'https://github.com/Md-Sohail-Ahmed',
-  resume: '/Md-Sohail_Ahmed_Resume.pdf',
+  resume: '/Md_Sohail_Ahmed_Resume.pdf',
   heroBadge: 'React.js | Node.js | MongoDB | GenAI',
 };
 
