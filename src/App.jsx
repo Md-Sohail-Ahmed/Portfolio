@@ -62,7 +62,7 @@ function Navbar() {
         </div>
         <a
           href={profile.resume}
-          download="Md-Sohail_Ahmed_Resume.pdf"
+          download="Md_Sohail_Ahmed_Resume.pdf"
           className="hidden items-center gap-2 rounded-full border border-cyan-300/30 px-4 py-2 text-sm font-medium text-cyan-100 transition hover:border-cyan-200 hover:bg-cyan-300/10 md:inline-flex"
         >
           <Download size={16} aria-hidden="true" />
@@ -307,7 +307,7 @@ function Contact() {
           </p>
           <a
             href={profile.resume}
-            download="Md-Sohail_Ahmed_Resume.pdf"
+            download="Md_Sohail_Ahmed_Resume.pdf"
             className="mt-6 inline-flex items-center gap-2 rounded-full bg-white px-5 py-3 text-sm font-semibold text-slate-950 transition hover:-translate-y-0.5 hover:bg-cyan-100"
           >
             <Download size={17} aria-hidden="true" />
