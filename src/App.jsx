@@ -307,7 +307,7 @@ function Contact() {
           </p>
           <a
             href={profile.resume}
-            download="Md_Sohail_Ahmed_Resume.pdf"
+            download="Sohail_Resume.pdf"
             className="mt-6 inline-flex items-center gap-2 rounded-full bg-white px-5 py-3 text-sm font-semibold text-slate-950 transition hover:-translate-y-0.5 hover:bg-cyan-100"
           >
             <Download size={17} aria-hidden="true" />
